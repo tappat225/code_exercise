@@ -1,0 +1,35 @@
+#忽略项
+*
+
+#提交所有目录及其子目录
+# !/*/
+# !/*/**/
+
+#只提交以下目录以其子目录
+!/BASE_KNOW/
+!/BASE_KNOW/**/
+!/KY/
+!/KY/**/
+!/Leetcode/
+!/Leetcode/**/
+!/PAT/
+!/PAT/**/
+!/Playground/
+!/Playground/**/
+!/RJ/
+!/RJ/**/
+!/Tools_function/
+!/Tools_function/**/
+!/algorithm/
+!/algorithm/**/
+
+#只提交以下类型文件
+!*.c
+!*.h
+!*.cpp
+!Makefile
+!*.md
+!CMakeLists.txt
+
+#当前目录下需要提交的文件
+!.gitignore
